@@ -1,0 +1,48 @@
+{
+  "name": "jevmap",
+  "version": "0.1.0",
+  "description": "Map a codebase into small units and let Jev (TypeSafe AI) hand an AI coding agent the ten files that matter for a task, instead of eighty.",
+  "keywords": [
+    "codebase",
+    "code-map",
+    "ai-agent",
+    "claude-code",
+    "jev",
+    "typesafe",
+    "code-search",
+    "cli"
+  ],
+  "homepage": "https://github.com/aegsrl7/jevmap#readme",
+  "bugs": {
+    "url": "https://github.com/aegsrl7/jevmap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aegsrl7/jevmap.git"
+  },
+  "license": "MIT",
+  "author": "Matteo Anselmo",
+  "type": "commonjs",
+  "main": "src/find.js",
+  "bin": {
+    "jevmap": "bin/jevmap.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "README.md",
+    "README.it.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "node --check bin/jevmap.js && for f in src/*.js; do node --check \"$f\"; done"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

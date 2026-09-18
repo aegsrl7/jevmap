@@ -1,0 +1,10 @@
+test/
+.github/
+CONTRACT.md
+.jevmap/
+bench.json
+bench-*.json
+.env
+.env.*
+.DS_Store
+*.log

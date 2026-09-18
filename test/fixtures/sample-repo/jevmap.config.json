@@ -1,0 +1,5 @@
+{
+  "project": "sample-repo, a tiny inbox app: Express backend in backend/, React frontend in frontend/src, Flask API in api/",
+  "areas": [["email|imap|mail", "email"]],
+  "out": ".jevmap"
+}

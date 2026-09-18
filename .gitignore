@@ -1,0 +1,23 @@
+# dependencies (the fixture repo ships a fake node_modules on purpose)
+node_modules/
+!test/fixtures/sample-repo/node_modules/
+
+# jevmap output (map, descriptions, benchmark)
+.jevmap/
+bench.json
+bench-*.json
+
+# secrets
+.env
+.env.*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# logs
+npm-debug.log*
+*.log
